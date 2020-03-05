@@ -66,9 +66,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Portable.Licensing.Old\Portable.Licensing.Old.csproj">
-      <Project>{6d2b800c-c252-4a33-ba05-904ae5b79417}</Project>
-      <Name>Portable.Licensing.Old</Name>
+    <ProjectReference Include="..\Portable.Licensing\Portable.Licensing.csproj">
+      <Project>{644713e6-1cc4-4da9-a6db-7111a08c1377}</Project>
+      <Name>Portable.Licensing</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
