@@ -301,7 +301,9 @@ namespace Portable.Licensing
         /// <returns>A <see cref="License"/> populated from the <see cref="TextReader"/> that contains XML.</returns>
         public static License Load(XmlReader reader)
         {
-            return new License(XElement.Load(reader, LoadOptions.None));
+            var xml = XElement.Load(reader, LoadOptions.PreserveWhitespace);
+
+            return Load(xml.ToString());
         }
 
         /// <summary>
